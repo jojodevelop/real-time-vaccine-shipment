@@ -1,3 +1,7 @@
+name: NIYOMUSHUMBA Josiane
+REG NUMBER: 25RP20948
+
+
 # Vaccine Shipment Tracker (Transparent Proxy)
 
 A full-stack decentralized application for tracking vaccine shipment temperatures using an upgradeable smart contract (OpenZeppelin Transparent Proxy) on the Sepolia testnet. The project includes a React frontend, Hardhat development environment, and a Prometheus/Grafana monitoring stack.

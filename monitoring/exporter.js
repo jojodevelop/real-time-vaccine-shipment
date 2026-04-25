@@ -98,8 +98,8 @@ const tempGauge = new client.Gauge({
 });
 
 // 2. Network & Contract Configuration
-const RPC_URL = "https://eth-sepolia.g.alchemy.com/v2/43BB0KpCnJSqwnBmX4EkO";
-const CONTRACT_ADDRESS = "0x33F4a2E02975Fe83516d122F4DA807f71836aAA8";
+const RPC_URL = "https://eth-sepolia.g.alchemy.com/v2/KRY3O9twLSOOUDoW5Kl9_";
+const CONTRACT_ADDRESS = "0x29967682F2680c1882BdF0fe5Cc122b9a7c3E5Ed";
 
 // We only need the read function for state polling
 const abi = [

@@ -15,8 +15,8 @@ html, body, #root {
 
 body {
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  background: linear-gradient(135deg, #F0FDF4 0%, #FFFFFF 100%);
-  color: #1A2E24;
+  background: #EAF2FF;
+  color: #0F172A;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
 }
@@ -36,13 +36,13 @@ body {
   flex-direction: column;
   height: 100%;
   width: 100%;
-  background: #F5F5F5;
+  background: linear-gradient(180deg, #EAF2FF 0%, #FFFFFF 100%);
   overflow: hidden;
 }
 
-/* Header Styles - GREEN BACKGROUND */
+/* Header Styles - BLUE BACKGROUND */
 .app-header {
-  background: linear-gradient(135deg, #0F6D3C 0%, #1F8A4C 100%);
+  background: linear-gradient(135deg, #1E40AF 0%, #2563EB 100%);
   border-bottom: none;
   padding: 0.875rem 2rem;
   display: flex;
@@ -51,7 +51,7 @@ body {
   flex-shrink: 0;
   height: 72px;
   z-index: 100;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 4px 20px rgba(15, 23, 42, 0.18);
 }
 
 .logo-section {
@@ -103,9 +103,9 @@ body {
   align-items: center;
   gap: 0.5rem;
   padding: 0.5rem 1rem;
-  background: rgba(255, 255, 255, 0.15);
+  background: rgba(255, 255, 255, 0.18);
   border-radius: 2rem;
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.25);
   font-size: 0.8rem;
   font-weight: 500;
   color: #FFFFFF;
@@ -115,7 +115,7 @@ body {
 .network-dot {
   width: 8px;
   height: 8px;
-  background: #4ADE80;
+  background: #93C5FD;
   border-radius: 50%;
   animation: pulse 2s infinite;
 }
@@ -132,10 +132,10 @@ body {
 
 .network-status {
   font-size: 0.7rem;
-  background: rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.22);
   padding: 0.2rem 0.5rem;
   border-radius: 1rem;
-  color: #DCFCE7;
+  color: #DBEAFE;
 }
 
 .wallet-connect-btn {
@@ -148,21 +148,21 @@ body {
   border-radius: 2rem;
   font-weight: 600;
   font-size: 0.85rem;
-  color: #0F6D3C;
+  color: #1E40AF;
   cursor: pointer;
   transition: all 0.2s ease;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 8px rgba(15, 23, 42, 0.12);
 }
 
 .wallet-connect-btn:hover {
   background: #FFFFFF;
   transform: translateY(-1px);
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 4px 16px rgba(15, 23, 42, 0.18);
 }
 
 .wallet-connect-btn.connected {
-  background: #FFFFFF;
-  color: #0F6D3C;
+  background: #EFF6FF;
+  color: #1E40AF;
 }
 
 .wallet-address {
@@ -182,16 +182,16 @@ body {
   overflow: hidden;
 }
 
-/* Sidebar Navigation - GREEN BACKGROUND */
+/* Sidebar Navigation - BLUE BACKGROUND */
 .sidebar-nav {
   width: 280px;
-  background: linear-gradient(180deg, #0F6D3C 0%, #166534 100%);
+  background: linear-gradient(180deg, #1E40AF 0%, #1D4ED8 100%);
   display: flex;
   flex-direction: column;
   flex-shrink: 0;
   overflow-y: auto;
   overflow-x: hidden;
-  box-shadow: 2px 0 20px rgba(0, 0, 0, 0.08);
+  box-shadow: 2px 0 30px rgba(15, 23, 42, 0.14);
 }
 
 .sidebar-header {
@@ -303,12 +303,12 @@ body {
   padding: 0 0.5rem;
 }
 
-/* Main Content Area - Scrollable with Light Gray Background */
+/* Main Content Area - Scrollable with Light Blue Background */
 .main-content-area {
   flex: 1;
   overflow-y: auto;
   overflow-x: hidden;
-  background: #F0F0F0;
+  background: rgba(239, 246, 255, 0.92);
   padding: 2rem;
 }
 
@@ -323,26 +323,26 @@ body {
   font-size: 1.75rem;
   font-weight: 700;
   margin-bottom: 1.5rem;
-  background: linear-gradient(135deg, #1A2E24, #1F8A4C);
+  background: linear-gradient(135deg, #1D4ED8, #2563EB);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
   letter-spacing: -0.3px;
 }
 
-/* Card Styles - LIGHT GRAY (closer to white) */
+/* Card Styles - LIGHT BLUE */
 .card {
-  background: #F9F9F9;
+  background: #FFFFFF;
   border-radius: 24px;
-  border: 1px solid #E8E8E8;
+  border: 1px solid #CBD5E1;
   padding: 1.5rem;
   transition: all 0.2s ease;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.03);
+  box-shadow: 0 1px 3px rgba(15, 23, 42, 0.08);
 }
 
 .card:hover {
-  box-shadow: 0 8px 24px rgba(31, 138, 76, 0.08);
-  border-color: #D0D0D0;
+  box-shadow: 0 10px 28px rgba(15, 23, 42, 0.12);
+  border-color: #94A3B8;
   transform: translateY(-2px);
 }
 
@@ -363,7 +363,7 @@ body {
 
 /* Button Styles */
 .btn-primary {
-  background: linear-gradient(135deg, #1F8A4C, #166534);
+  background: linear-gradient(135deg, #4F46E5, #2563EB);
   color: white;
   border: none;
   padding: 0.75rem 1.5rem;
@@ -379,7 +379,7 @@ body {
 
 .btn-primary:hover:not(:disabled) {
   transform: translateY(-1px);
-  box-shadow: 0 4px 16px rgba(31, 138, 76, 0.3);
+  box-shadow: 0 4px 16px rgba(59, 130, 246, 0.3);
 }
 
 .btn-primary:disabled {
@@ -389,8 +389,8 @@ body {
 
 .btn-secondary {
   background: transparent;
-  border: 1.5px solid #D0D0D0;
-  color: #1F8A4C;
+  border: 1.5px solid #93C5FD;
+  color: #2563EB;
   padding: 0.75rem 1.5rem;
   border-radius: 2rem;
   font-weight: 600;
@@ -400,8 +400,8 @@ body {
 }
 
 .btn-secondary:hover {
-  background: #F0F9F4;
-  border-color: #1F8A4C;
+  background: #EFF6FF;
+  border-color: #2563EB;
 }
 
 /* Form Elements */
@@ -413,35 +413,35 @@ body {
   display: block;
   font-weight: 500;
   margin-bottom: 0.5rem;
-  color: #555555;
+  color: #475569;
   font-size: 0.85rem;
 }
 
 .input-field {
   width: 100%;
   padding: 0.75rem 1rem;
-  border: 1.5px solid #E0E0E0;
+  border: 1.5px solid #CBD5E1;
   border-radius: 12px;
   font-size: 1rem;
   transition: all 0.2s ease;
-  background: #FFFFFF;
-  color: #333333;
+  background: #F8FAFF;
+  color: #0F172A;
 }
 
 .input-field:focus {
   outline: none;
-  border-color: #1F8A4C;
-  box-shadow: 0 0 0 3px rgba(31, 138, 76, 0.1);
+  border-color: #2563EB;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.16);
 }
 
 .input-field::placeholder {
-  color: #AAAAAA;
+  color: #94A3B8;
 }
 
 /* Badge Styles */
 .badge-success {
-  background: #E7F5ED;
-  color: #166534;
+  background: #DBEAFE;
+  color: #1D4ED8;
   padding: 0.25rem 0.75rem;
   border-radius: 2rem;
   font-size: 0.75rem;
@@ -449,8 +449,8 @@ body {
 }
 
 .badge-warning {
-  background: #FFF5E8;
-  color: #E68A2E;
+  background: #FDE68A;
+  color: #92400E;
   padding: 0.25rem 0.75rem;
   border-radius: 2rem;
   font-size: 0.75rem;
@@ -458,8 +458,8 @@ body {
 }
 
 .badge-danger {
-  background: #FEF0F0;
-  color: #DC4C4C;
+  background: #FECACA;
+  color: #B91C1C;
   padding: 0.25rem 0.75rem;
   border-radius: 2rem;
   font-size: 0.75rem;
@@ -468,21 +468,21 @@ body {
 
 /* Alert Styles */
 .alert-success {
-  background: #F0F9F4;
-  border-left: 4px solid #1F8A4C;
+  background: #DBEAFE;
+  border-left: 4px solid #2563EB;
   padding: 1rem;
   border-radius: 12px;
   margin-top: 1rem;
-  color: #166534;
+  color: #1D4ED8;
 }
 
 .alert-error {
-  background: #FEF0F0;
-  border-left: 4px solid #DC4C4C;
+  background: #FECACA;
+  border-left: 4px solid #B91C1C;
   padding: 1rem;
   border-radius: 12px;
   margin-top: 1rem;
-  color: #DC4C4C;
+  color: #B91C1C;
 }
 
 /* Grid Layouts */
@@ -513,10 +513,10 @@ body {
   gap: 2rem;
   flex-wrap: wrap;
   padding: 1rem 1.5rem;
-  background: #F5F5F5;
+  background: #EFF6FF;
   border-radius: 3rem;
   margin-top: 1.5rem;
-  border: 1px solid #E8E8E8;
+  border: 1px solid #BFDBFE;
 }
 
 .legend-item {
@@ -524,7 +524,7 @@ body {
   align-items: center;
   gap: 0.5rem;
   font-size: 0.85rem;
-  color: #555555;
+  color: #475569;
 }
 
 .legend-dot {
@@ -535,17 +535,17 @@ body {
 
 /* Code Snippets */
 code {
-  background: #F0F0F0;
+  background: #EFF6FF;
   padding: 0.2rem 0.5rem;
   border-radius: 6px;
   font-family: 'Fira Code', 'Courier New', monospace;
   font-size: 0.85rem;
-  color: #166534;
+  color: #1D4ED8;
 }
 
-/* Footer - GREEN BACKGROUND */
+/* Footer - BLUE BACKGROUND */
 .app-footer {
-  background: linear-gradient(135deg, #0F6D3C 0%, #166534 100%);
+  background: linear-gradient(135deg, #1E40AF 0%, #2563EB 100%);
   padding: 0.75rem 2rem;
   display: flex;
   justify-content: space-between;
@@ -554,7 +554,7 @@ code {
   gap: 1rem;
   flex-shrink: 0;
   height: 52px;
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
 }
 
 .footer-section {
@@ -562,7 +562,7 @@ code {
   align-items: center;
   gap: 0.5rem;
   font-size: 0.75rem;
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255, 0.85);
 }
 
 .footer-icon {
@@ -576,17 +576,17 @@ code {
 }
 
 ::-webkit-scrollbar-track {
-  background: #E8E8E8;
+  background: #E2E8F0;
   border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #C0C0C0;
+  background: #93C5FD;
   border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #1F8A4C;
+  background: #60A5FA;
 }
 
 /* Responsive Design */
@@ -714,21 +714,21 @@ code {
 }
 
 .loading-skeleton {
-  background: linear-gradient(90deg, #F0F0F0 25%, #FAFAFA 50%, #F0F0F0 75%);
+  background: linear-gradient(90deg, #E2E8F0 25%, #EFF6FF 50%, #E2E8F0 75%);
   background-size: 1000px 100%;
   animation: shimmer 2s infinite;
 }
 
 /* Focus visible for accessibility */
 :focus-visible {
-  outline: 2px solid #1F8A4C;
+  outline: 2px solid #2563EB;
   outline-offset: 2px;
   border-radius: 4px;
 }
 
 /* Selection color */
 ::selection {
-  background: #1F8A4C;
+  background: #2563EB;
   color: white;
 }
 
